@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import `in`.ashnehete.rentsplitter.data.SplitViewModel
 import `in`.ashnehete.rentsplitter.ui.composables.RatioList
+import `in`.ashnehete.rentsplitter.ui.composables.TopBar
 import `in`.ashnehete.rentsplitter.ui.composables.TotalBar
 import `in`.ashnehete.rentsplitter.ui.theme.RentSplitterTheme
 
@@ -24,6 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             RentSplitterTheme {
                 Scaffold(
+                    topBar = { TopBar() },
                     modifier = Modifier.fillMaxSize(),
                 ) { innerPadding ->
                     SplitScreen(

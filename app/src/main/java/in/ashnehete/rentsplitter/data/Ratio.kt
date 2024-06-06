@@ -15,4 +15,4 @@ class Ratio(
 }
 
 
-fun getInitialRatioList() = List(0) { i -> Ratio(i + 1) }
+fun getInitialRatioList() = List(2) { i -> Ratio(i + 1) }
