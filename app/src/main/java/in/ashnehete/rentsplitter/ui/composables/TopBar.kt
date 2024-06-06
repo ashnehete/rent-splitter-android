@@ -17,7 +17,10 @@ import `in`.ashnehete.rentsplitter.ui.theme.RentSplitterTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TopBar(modifier: Modifier = Modifier) {
+fun TopBar(
+    onClickInfo: () -> Unit,
+    modifier: Modifier = Modifier
+) {
     CenterAlignedTopAppBar(
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = MaterialTheme.colorScheme.primaryContainer,
@@ -31,7 +34,7 @@ fun TopBar(modifier: Modifier = Modifier) {
             )
         },
         actions = {
-            IconButton(onClick = { /* do something */ }) {
+            IconButton(onClick = onClickInfo) {
                 Icon(
                     imageVector = Icons.Outlined.Info,
                     contentDescription = "Info",
@@ -47,6 +50,6 @@ fun TopBar(modifier: Modifier = Modifier) {
 @Composable
 private fun TopBarPreview() {
     RentSplitterTheme {
-        TopBar()
+        TopBar({})
     }
 }
