@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="640" viewBox="0 0 640 640" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 427.3330465127 427.3330465127)" id="ZNJrgL41lWplxzRDpN8fs"  >
+<path style="stroke: rgb(101,87,155); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,168,247); fill-opacity: 0.6; fill-rule: nonzero; opacity: 1;"  transform=" translate(-148.66694, -148.66694)" d="M 297.33388 188.72228 C 297.33388 248.70681000000002 248.70681000000002 297.33388 188.72228 297.33388 L 0 297.33388 L 297.33388 0 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 319.9999896865 319.9999896865)" id="xlaNCqKI9bDNUdNIhkiWo"  >
+<path style="stroke: rgb(101,87,155); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,168,247); fill-opacity: 0.8; fill-rule: nonzero; opacity: 1;"  transform=" translate(-255.999995, -255.999995)" d="M 403.38839 0 C 463.37292 0 511.99999 48.62707 511.99999 108.6116 L 511.99999 192.0387 L 192.0387 511.99999 L 108.61160000000001 511.99999 C 48.62707000000001 511.99999 1.4210854715202004e-14 463.37292 1.4210854715202004e-14 403.38839 L 1.4210854715202004e-14 316.66610000000003 L 316.6661 5.684341886080802e-14 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 211.0193359173 211.0193359173)" id="iDeKBoK-wefljNMEVaFKc"  >
+<path style="stroke: rgb(101,87,155); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,168,247); fill-rule: nonzero; opacity: 1;"  transform=" translate(-147.01934, -147.01934)" d="M 0 108.6116 C 0 48.627069999999996 48.62707 0 108.6116 0 L 294.03868 0 L 0 294.03868 z" stroke-linecap="round" />
+</g>
+</svg>
