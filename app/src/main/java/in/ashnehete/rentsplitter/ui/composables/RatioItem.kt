@@ -38,7 +38,7 @@ fun RatioItem(
             .padding(8.dp)
     ) {
         TextField(
-            value = ratio.ratio.toString(),
+            value = if (ratio.ratio == 0) "" else ratio.ratio.toString(),
             onValueChange = onRatioChange,
             label = { Text("Ratio ${ratio.id}") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),

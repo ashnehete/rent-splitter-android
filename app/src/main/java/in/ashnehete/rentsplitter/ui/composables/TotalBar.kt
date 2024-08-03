@@ -32,7 +32,7 @@ fun TotalBar(
             .padding(8.dp)
     ) {
         TextField(
-            value = total.toString(),
+            value = if (total == 0) "" else total.toString(),
             onValueChange = onTotalChange,
             label = { Text("Total") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
